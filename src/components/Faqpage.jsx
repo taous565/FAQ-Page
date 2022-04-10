@@ -1,3 +1,6 @@
+
+//import depuis MUI -------------------------//
+
 import * as React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -5,7 +8,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
- function Faqpage() {
+ function Faqpage() { // Fonctio qui affiche ma foire de question
   return (
     <div>
       <Accordion>
@@ -17,8 +20,10 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
           <Typography>1 COMMANDE</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+         
+          <Typography> 
+             {/* la réponse à la question */}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse 
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
@@ -33,20 +38,12 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
+             {/* la réponse à la question */}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
       </Accordion>
-      {/* <Accordion disabled>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3a-content"
-          id="panel3a-header"
-        >
-          <Typography>Disabled Accordion</Typography>
-        </AccordionSummary>
-      </Accordion> */}
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -57,6 +54,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
+             {/* la réponse à la question */}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
@@ -170,4 +168,4 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
   );
 }
 ;
-export default Faqpage;
+export default Faqpage; // exporte de ma fonction
