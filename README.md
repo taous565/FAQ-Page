@@ -1,4 +1,4 @@
-# FAQ page ------ API REST - TESTE TECHNIQUE ----TIWWEN
+# FAQ page ------ - TESTE TECHNIQUE ----TIWWEN
 
 
 # Getting Started with Create React App
@@ -10,4 +10,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
+
+### branche master
 

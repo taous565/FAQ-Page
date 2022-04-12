@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => { // afficher le titre de ma FAQ dans mon HEADER
   return (
-    <div>
+    <header>
       <h1>Questions fréquentes</h1>
-    </div>
+    </header>
   )
 }
 export default Header
